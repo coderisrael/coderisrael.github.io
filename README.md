@@ -1,4 +1,4 @@
 # yoisrael.github.io
 Welcome!
 
-I'm using this github page to hold my personal presentation page.
+I'm using this GitHub page to hold my presentation page.
