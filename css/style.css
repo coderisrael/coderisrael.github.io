@@ -208,12 +208,12 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(29, 138, 240, 0.723);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #2c98f0; }
+            color: #f9bf3f; }
 
 .container-wrap {
   max-width: 1170px;
@@ -331,13 +331,17 @@ figure {
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
-            background: transparent !important; }
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: transparent !important;
-              border: 1px solid #000 !important; }
+          .btn.btn-learn {
+          background: transparent !important;
+            border: 1px solid #000 !important;
+            color: #000 !important;
+          }
+          
+          .btn.btn-learn:hover {
+            background: #000 !important;
+            border: 1px solid #000 !important;
+            color: #fff !important;
+          }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
