@@ -258,8 +258,8 @@ figure figcaption {
   width: 100%;
 }
 
-.colorlib-footer ul li a i {
-  font-size: 24px;
+#colorlib-aside .colorlib-footer ul li a i {
+  font-size: 24px !important;
 }
 
 @media screen and (max-width: 768px) {
